@@ -10,10 +10,21 @@
 //IR Sensor Info
 
 class Sensors{
-  public:
-
-  private:
-  
+public:
+	Sensors();
+	void setup();
+	void zero();
+	
+	int getRadarLeft();
+	int getRadarRight();
+	int getRadarFront();
+	int getRadarBack();
+	
+	bool onLine();
+	bool flame();
+	int getRadarFlame();
+private:
+	
 }
 
 #endif
