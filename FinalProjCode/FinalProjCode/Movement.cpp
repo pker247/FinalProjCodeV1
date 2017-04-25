@@ -14,6 +14,7 @@ int rotsToTicks;
 Movement::Movement() {
   
 }
+
 void Movement::setup(Servo left, Servo right, Servo arm, Servo fan, int armPot) {
   //pointers
   leftMotor = left;
