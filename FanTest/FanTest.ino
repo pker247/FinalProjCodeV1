@@ -6,7 +6,7 @@ void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
   Serial.print("Begin");
-  fan.attach(4, 1000, 2000);
+  fan.attach(22, 1000, 2000);
   fan.writeMicroseconds(1000);
 
 }
