@@ -11,9 +11,17 @@
 
 class Sensors{
   public:
-
+	bool leftClear();
+	bool rightClear();
+	bool frontClear();
+	int goForwardUltra();
   private:
-  
+	int lineFrontLeft();
+	int lineFrontRight();
+	int lineBackLeft();
+	int lineBackRight();
+	bool lineFront();
+	bool lineRear();
 }
 
 #endif

@@ -189,6 +189,7 @@ void setup() {
    Serial.println("starting calibration");
   gyroZero();
   Accel_Init();
+  Serial.println("We are done setting up");
 }
 
 void loop() {
